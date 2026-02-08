@@ -1,0 +1,4 @@
+source;share/crsf_parser/local_setup.bash
+source;share/crsf_parser/local_setup.dsv
+source;share/crsf_parser/local_setup.sh
+source;share/crsf_parser/local_setup.zsh

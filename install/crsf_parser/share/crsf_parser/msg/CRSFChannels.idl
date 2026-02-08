@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crsf_parser/msg/CRSFChannels.msg
+// generated code does not contain a copyright notice
+
+
+module crsf_parser {
+  module msg {
+    typedef uint16 uint16__16[16];
+    @verbatim (language="comment", text=
+      "CRSF通道数据（11位分辨率）")
+    struct CRSFChannels {
+      uint16__16 channels;
+
+      @verbatim (language="comment", text=
+        "链路质量百分比")
+      uint8 link_quality;
+
+      @verbatim (language="comment", text=
+        "RSSI dBm值")
+      uint8 rssi_dbm;
+
+      @verbatim (language="comment", text=
+        "失控保护状态")
+      boolean failsafe;
+
+      @verbatim (language="comment", text=
+        "时间戳")
+      uint32 timestamp;
+    };
+  };
+};

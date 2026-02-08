@@ -1,0 +1,254 @@
+[0.006s] Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tang/tang_ws/remote_h/crsf_parser -DCMAKE_INSTALL_PREFIX=/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.229s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.237s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.375s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.399s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.407s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.452s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.505s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.521s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.543s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.548s] -- Looking for pthread.h
+[0.598s] -- Looking for pthread.h - found
+[0.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.648s] -- Found Threads: TRUE  
+[0.681s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.699s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.853s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.114s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.115s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.131s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.131s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.131s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.147s] -- Found PythonExtra: .so  
+[1.171s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.171s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.171s]   rosidl_target_interfaces()
+[1.171s] Call Stack (most recent call first):
+[1.171s]   CMakeLists.txt:48 (rosidl_target_interfaces)
+[1.171s] 
+[1.171s] [0m
+[1.175s] -- Configuring done
+[1.194s] -- Generating done
+[1.201s] -- Build files have been written to: /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser
+[1.207s] Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tang/tang_ws/remote_h/crsf_parser -DCMAKE_INSTALL_PREFIX=/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser
+[1.208s] Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16
+[1.232s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.239s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.241s] [  6%] Built target ament_cmake_python_copy_crsf_parser
+[1.367s] running egg_info
+[1.367s] creating crsf_parser.egg-info
+[1.368s] writing crsf_parser.egg-info/PKG-INFO
+[1.368s] writing dependency_links to crsf_parser.egg-info/dependency_links.txt
+[1.368s] writing top-level names to crsf_parser.egg-info/top_level.txt
+[1.368s] writing manifest file 'crsf_parser.egg-info/SOURCES.txt'
+[1.369s] reading manifest file 'crsf_parser.egg-info/SOURCES.txt'
+[1.369s] writing manifest file 'crsf_parser.egg-info/SOURCES.txt'
+[1.389s] [  6%] Built target ament_cmake_python_build_crsf_parser_egg
+[1.398s] [  6%] Built target crsf_parser__cpp
+[1.403s] [  9%] [32mBuilding C object CMakeFiles/crsf_parser__rosidl_generator_c.dir/rosidl_generator_c/crsf_parser/msg/detail/crsf_channels__functions.c.o[0m
+[1.403s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.404s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.405s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.436s] [ 21%] [32m[1mLinking C shared library libcrsf_parser__rosidl_generator_c.so[0m
+[1.461s] [ 21%] Built target crsf_parser__rosidl_generator_c
+[1.466s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.468s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.468s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.552s] [ 33%] [32mBuilding CXX object CMakeFiles/crsf_parser__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crsf_parser/msg/crsf_channels__type_support.cpp.o[0m
+[1.563s] [ 36%] [32mBuilding CXX object CMakeFiles/crsf_parser__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crsf_parser/msg/detail/crsf_channels__type_support.cpp.o[0m
+[1.566s] [ 39%] [32mBuilding CXX object CMakeFiles/crsf_parser__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crsf_parser/msg/detail/dds_fastrtps/crsf_channels__type_support.cpp.o[0m
+[1.621s] [ 42%] [32mBuilding CXX object CMakeFiles/crsf_parser__rosidl_typesupport_c.dir/rosidl_typesupport_c/crsf_parser/msg/crsf_channels__type_support.cpp.o[0m
+[1.642s] [ 45%] [32m[1mLinking CXX shared library libcrsf_parser__rosidl_typesupport_c.so[0m
+[1.642s] [ 48%] [32mBuilding CXX object CMakeFiles/crsf_parser__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crsf_parser/msg/detail/crsf_channels__type_support_c.cpp.o[0m
+[1.651s] [ 51%] [32mBuilding C object CMakeFiles/crsf_parser__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crsf_parser/msg/detail/crsf_channels__type_support.c.o[0m
+[1.674s] [ 54%] [32m[1mLinking C shared library libcrsf_parser__rosidl_typesupport_introspection_c.so[0m
+[1.678s] [ 54%] Built target crsf_parser__rosidl_typesupport_c
+[1.698s] [ 54%] Built target crsf_parser__rosidl_typesupport_introspection_c
+[1.709s] [ 57%] [32m[1mLinking CXX shared library libcrsf_parser__rosidl_typesupport_cpp.so[0m
+[1.733s] [ 57%] Built target crsf_parser__rosidl_typesupport_cpp
+[1.779s] [ 60%] [32m[1mLinking CXX shared library libcrsf_parser__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.780s] [ 63%] [32m[1mLinking CXX shared library libcrsf_parser__rosidl_typesupport_introspection_cpp.so[0m
+[1.828s] [ 66%] [32m[1mLinking CXX shared library libcrsf_parser__rosidl_typesupport_fastrtps_c.so[0m
+[1.862s] [ 66%] Built target crsf_parser__rosidl_typesupport_introspection_cpp
+[1.866s] [ 66%] Built target crsf_parser__rosidl_typesupport_fastrtps_cpp
+[1.901s] [ 66%] Built target crsf_parser__rosidl_typesupport_fastrtps_c
+[1.912s] [ 66%] Built target crsf_parser
+[1.924s] [ 69%] [32mBuilding CXX object CMakeFiles/crsf_parser_node.dir/src/crsf_parser.cpp.o[0m
+[1.926s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.134s] [ 72%] Built target crsf_parser__py
+[2.147s] [ 75%] [32mBuilding C object CMakeFiles/crsf_parser__rosidl_generator_py.dir/rosidl_generator_py/crsf_parser/msg/_crsf_channels_s.c.o[0m
+[2.212s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/crsf_parser/libcrsf_parser__rosidl_generator_py.so[0m
+[2.241s] [ 78%] Built target crsf_parser__rosidl_generator_py
+[2.253s] [ 81%] [32mBuilding C object CMakeFiles/crsf_parser__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/crsf_parser/_crsf_parser_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.254s] [ 84%] [32mBuilding C object CMakeFiles/crsf_parser__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/crsf_parser/_crsf_parser_s.ep.rosidl_typesupport_c.c.o[0m
+[2.254s] [ 87%] [32mBuilding C object CMakeFiles/crsf_parser__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/crsf_parser/_crsf_parser_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.305s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/crsf_parser/crsf_parser_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.307s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/crsf_parser/crsf_parser_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.307s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/crsf_parser/crsf_parser_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.328s] [ 96%] Built target crsf_parser__rosidl_typesupport_c__pyext
+[2.328s] [ 96%] Built target crsf_parser__rosidl_typesupport_fastrtps_c__pyext
+[2.328s] [ 96%] Built target crsf_parser__rosidl_typesupport_introspection_c__pyext
+[4.418s] [100%] [32m[1mLinking CXX executable crsf_parser_node[0m
+[4.553s] [100%] Built target crsf_parser_node
+[4.562s] Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16
+[4.568s] Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser
+[4.573s] -- Install configuration: ""
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/ament_index/resource_index/rosidl_interfaces/crsf_parser
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/rosidl_generator_c__visibility_control.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/crsf_channels.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__struct.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__functions.c
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__type_support.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__functions.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/library_path.sh
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/library_path.dsv
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_generator_c.so
+[4.573s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_generator_c.so" to ""
+[4.573s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser
+[4.573s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg
+[4.573s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__rosidl_typesupport_fastrtps_c.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_fastrtps_c.so
+[4.573s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_fastrtps_c.so" to ""
+[4.573s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser
+[4.573s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg
+[4.573s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/crsf_channels.hpp
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__type_support.hpp
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__builder.hpp
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__struct.hpp
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__traits.hpp
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/dds_fastrtps
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__rosidl_typesupport_fastrtps_cpp.hpp
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_fastrtps_cpp.so
+[4.574s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__type_support.c
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__rosidl_typesupport_introspection_c.h
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_introspection_c.so
+[4.574s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_introspection_c.so" to ""
+[4.574s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_c.so
+[4.574s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_c.so" to ""
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg
+[4.574s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__rosidl_typesupport_introspection_cpp.hpp
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/include/crsf_parser/crsf_parser/msg/detail/crsf_channels__type_support.cpp
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_introspection_cpp.so
+[4.575s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_introspection_cpp.so" to ""
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_cpp.so
+[4.575s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_typesupport_cpp.so" to ""
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/pythonpath.sh
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/pythonpath.dsv
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser-0.1.0-py3.10.egg-info
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser-0.1.0-py3.10.egg-info/PKG-INFO
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser-0.1.0-py3.10.egg-info/top_level.txt
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/_crsf_parser_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/_crsf_parser_s.ep.rosidl_typesupport_introspection_c.c
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/__init__.py
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/libcrsf_parser__rosidl_generator_py.so
+[4.575s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg
+[4.576s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg/_crsf_channels_s.c
+[4.576s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg/__init__.py
+[4.576s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg/_crsf_channels.py
+[4.576s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/_crsf_parser_s.ep.rosidl_typesupport_c.c
+[4.595s] Listing '/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser'...
+[4.595s] Compiling '/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/__init__.py'...
+[4.595s] Listing '/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg'...
+[4.595s] Compiling '/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg/__init__.py'...
+[4.595s] Compiling '/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/msg/_crsf_channels.py'...
+[4.597s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.598s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.598s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.598s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.598s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.598s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/local/lib/python3.10/dist-packages/crsf_parser/crsf_parser_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.598s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_generator_py.so
+[4.598s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/libcrsf_parser__rosidl_generator_py.so" to ""
+[4.598s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg/CRSFChannels.idl
+[4.598s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg/CRSFChannels.msg
+[4.598s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/crsf_parser/crsf_parser_node
+[4.599s] -- Set runtime path of "/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/crsf_parser/crsf_parser_node" to ""
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/launch
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/launch/crsf_parser.launch.py
+[4.599s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg
+[4.599s] -- Up-to-date: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg/CRSFChannels.msg
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/ament_index/resource_index/package_run_dependencies/crsf_parser
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/ament_index/resource_index/parent_prefix_path/crsf_parser
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/ament_prefix_path.sh
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/ament_prefix_path.dsv
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/path.sh
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/environment/path.dsv
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/local_setup.bash
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/local_setup.sh
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/local_setup.zsh
+[4.599s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/local_setup.dsv
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/package.dsv
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/ament_index/resource_index/packages/crsf_parser
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_generator_cExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_generator_cExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_typesupport_fastrtps_cExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_generator_cppExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_introspection_cExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_cExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_cExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_introspection_cppExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_cppExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parser__rosidl_typesupport_cppExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_generator_pyExport.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/export_crsf_parser__rosidl_generator_pyExport-noconfig.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/rosidl_cmake-extras.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.600s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/ament_cmake_export_libraries-extras.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/ament_cmake_export_targets-extras.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parserConfig.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/cmake/crsf_parserConfig-version.cmake
+[4.601s] -- Installing: /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/package.xml
+[4.602s] Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser

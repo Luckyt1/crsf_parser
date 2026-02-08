@@ -1,0 +1,6 @@
+{
+  "package_name": "crsf_parser",
+  "non_idl_tuples": [
+    "/home/tang/tang_ws/remote_h/crsf_parser:msg/CRSFChannels.msg"
+  ]
+}

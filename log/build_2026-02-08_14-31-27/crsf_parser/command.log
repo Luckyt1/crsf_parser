@@ -1,0 +1,4 @@
+Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16
+Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16
+Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser
+Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser

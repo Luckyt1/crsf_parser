@@ -1,0 +1,8 @@
+setup.py
+crsf_parser/__init__.py
+crsf_parser.egg-info/PKG-INFO
+crsf_parser.egg-info/SOURCES.txt
+crsf_parser.egg-info/dependency_links.txt
+crsf_parser.egg-info/top_level.txt
+crsf_parser/msg/__init__.py
+crsf_parser/msg/_crsf_channels.py
