@@ -53,6 +53,7 @@
 /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg/CRSFChannels.idl
 /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg/CRSFChannels.msg
 /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/crsf_parser/crsf_parser_node
+/home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/lib/crsf_parser/tranform
 /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/launch/crsf_parser.launch.py
 /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/crsf_parser/msg/CRSFChannels.msg
 /home/tang/tang_ws/remote_h/crsf_parser/install/crsf_parser/share/ament_index/resource_index/package_run_dependencies/crsf_parser

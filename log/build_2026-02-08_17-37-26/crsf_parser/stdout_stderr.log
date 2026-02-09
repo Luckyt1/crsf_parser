@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target tranform[0m
+[  5%] [32mBuilding CXX object CMakeFiles/transform_node.dir/src/tranform.cpp.o[0m
+[ 10%] Built target crsf_parser__rosidl_generator_c
+[ 13%] Built target crsf_parser__cpp
+[ 16%] Built target ament_cmake_python_copy_crsf_parser
+[ 16%] [32mBuilding CXX object CMakeFiles/tranform.dir/src/tranform.cpp.o[0m
+[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/transform_node.dir/build.make:76：CMakeFiles/transform_node.dir/src/tranform.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:624：CMakeFiles/transform_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 24%] Built target crsf_parser__rosidl_typesupport_introspection_c
+[ 32%] Built target crsf_parser__rosidl_typesupport_c
+[ 40%] Built target crsf_parser__rosidl_typesupport_fastrtps_c
+[ 54%] Built target crsf_parser__rosidl_typesupport_introspection_cpp
+[ 56%] Built target crsf_parser__rosidl_typesupport_cpp
+[ 64%] Built target crsf_parser__rosidl_typesupport_fastrtps_cpp
+running egg_info
+writing crsf_parser.egg-info/PKG-INFO
+writing dependency_links to crsf_parser.egg-info/dependency_links.txt
+writing top-level names to crsf_parser.egg-info/top_level.txt
+reading manifest file 'crsf_parser.egg-info/SOURCES.txt'
+writing manifest file 'crsf_parser.egg-info/SOURCES.txt'
+[ 64%] Built target ament_cmake_python_build_crsf_parser_egg
+[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:14:5:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kon_joy_received[m[K’
+   14 |     [01;31m[Kvoid[m[K
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:[m[K In constructor ‘[01m[KTransformNode::TransformNode()[m[K’:
+[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:10:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_joy_received[m[K’ is not a member of ‘[01m[KTransformNode[m[K’
+   10 |             "crsf/joy", 10, std::bind(&TransformNode::[01;31m[Kon_joy_received[m[K, this, std::placeholders::_1));
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   11 |         [01;31m[Kpublisher_[m[K = this->create_publisher<communication::msg::MotionCommands>("/motion_command", 20);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/tranform.dir/build.make:76：CMakeFiles/tranform.dir/src/tranform.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:650：CMakeFiles/tranform.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -289,7 +289,7 @@ SITE:STRING=tang
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/bxi/bxi_ros2_pkg/lib/libcommunication__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h
@@ -359,6 +359,9 @@ ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for communication.
+communication_DIR:PATH=/opt/bxi/bxi_ros2_pkg/share/communication/cmake
 
 //Value Computed by CMake
 crsf_parser_BINARY_DIR:STATIC=/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser

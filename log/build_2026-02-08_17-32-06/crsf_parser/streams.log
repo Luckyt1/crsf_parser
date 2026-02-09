@@ -1,0 +1,78 @@
+[0.006s] Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.117s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.121s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.230s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.245s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.395s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.690s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.690s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.690s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.699s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.699s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.699s]   rosidl_target_interfaces()
+[0.699s] Call Stack (most recent call first):
+[0.699s]   CMakeLists.txt:49 (rosidl_target_interfaces)
+[0.699s] 
+[0.699s] [0m
+[0.699s] -- Found communication: 0.0.0 (/opt/bxi/bxi_ros2_pkg/share/communication/cmake)
+[0.713s] -- Configuring done
+[0.734s] -- Generating done
+[0.742s] -- Build files have been written to: /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser
+[0.761s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_generator_c[0m
+[0.765s] [  5%] [32mBuilding CXX object CMakeFiles/tranform.dir/src/tranform.cpp.o[0m
+[0.765s] [  5%] [32mBuilding CXX object CMakeFiles/transform_node.dir/src/tranform.cpp.o[0m
+[0.767s] [ 13%] Built target crsf_parser__rosidl_generator_c
+[0.769s] [ 16%] Built target crsf_parser__cpp
+[0.771s] [ 16%] Built target ament_cmake_python_copy_crsf_parser
+[0.772s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.772s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.772s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.772s] compilation terminated.
+[0.772s] gmake[2]: *** [CMakeFiles/transform_node.dir/build.make:76：CMakeFiles/transform_node.dir/src/tranform.cpp.o] 错误 1
+[0.773s] gmake[1]: *** [CMakeFiles/Makefile2:624：CMakeFiles/transform_node.dir/all] 错误 2
+[0.773s] gmake[1]: *** 正在等待未完成的任务....
+[0.775s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_typesupport_introspection_c[0m
+[0.775s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_typesupport_fastrtps_c[0m
+[0.775s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_typesupport_fastrtps_cpp[0m
+[0.777s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_typesupport_c[0m
+[0.778s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_typesupport_cpp[0m
+[0.778s] [35m[1mConsolidate compiler generated dependencies of target crsf_parser__rosidl_typesupport_introspection_cpp[0m
+[0.783s] [ 24%] Built target crsf_parser__rosidl_typesupport_introspection_c
+[0.783s] [ 32%] Built target crsf_parser__rosidl_typesupport_fastrtps_cpp
+[0.785s] [ 40%] Built target crsf_parser__rosidl_typesupport_fastrtps_c
+[0.785s] [ 48%] Built target crsf_parser__rosidl_typesupport_c
+[0.785s] [ 56%] Built target crsf_parser__rosidl_typesupport_introspection_cpp
+[0.786s] [ 64%] Built target crsf_parser__rosidl_typesupport_cpp
+[0.894s] running egg_info
+[0.894s] writing crsf_parser.egg-info/PKG-INFO
+[0.895s] writing dependency_links to crsf_parser.egg-info/dependency_links.txt
+[0.895s] writing top-level names to crsf_parser.egg-info/top_level.txt
+[0.896s] reading manifest file 'crsf_parser.egg-info/SOURCES.txt'
+[0.896s] writing manifest file 'crsf_parser.egg-info/SOURCES.txt'
+[0.915s] [ 64%] Built target ament_cmake_python_build_crsf_parser_egg
+[1.962s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:14:5:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kon_joy_received[m[K’
+[1.962s]    14 |     [01;31m[Kvoid[m[K
+[1.962s]       |     [01;31m[K^~~~[m[K
+[1.982s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:[m[K In constructor ‘[01m[KTransformNode::TransformNode()[m[K’:
+[1.982s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:10:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_joy_received[m[K’ is not a member of ‘[01m[KTransformNode[m[K’
+[1.982s]    10 |             "crsf/joy", 10, std::bind(&TransformNode::[01;31m[Kon_joy_received[m[K, this, std::placeholders::_1));
+[1.982s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.986s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.986s]    11 |         [01;31m[Kpublisher_[m[K = this->create_publisher<communication::msg::MotionCommands>("/motion_command", 20);
+[1.986s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.986s]       |         [32m[Krmw_publisher_t[m[K
+[2.321s] gmake[2]: *** [CMakeFiles/tranform.dir/build.make:76：CMakeFiles/tranform.dir/src/tranform.cpp.o] 错误 1
+[2.321s] gmake[1]: *** [CMakeFiles/Makefile2:650：CMakeFiles/tranform.dir/all] 错误 2
+[2.321s] gmake: *** [Makefile:146：all] 错误 2
+[2.322s] Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16

@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target tranform[0m
+[  2%] [32mBuilding CXX object CMakeFiles/transform_node.dir/src/tranform.cpp.o[0m
+[ 10%] Built target crsf_parser__rosidl_generator_c
+[ 13%] [32mBuilding CXX object CMakeFiles/tranform.dir/src/tranform.cpp.o[0m
+[ 16%] Built target crsf_parser__cpp
+[ 16%] Built target ament_cmake_python_copy_crsf_parser
+[ 24%] Built target crsf_parser__rosidl_typesupport_fastrtps_c
+[ 32%] Built target crsf_parser__rosidl_typesupport_c
+[ 40%] Built target crsf_parser__rosidl_typesupport_introspection_c

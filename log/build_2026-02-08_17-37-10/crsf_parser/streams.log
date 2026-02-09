@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target tranform[0m
+[0.040s] [  2%] [32mBuilding CXX object CMakeFiles/transform_node.dir/src/tranform.cpp.o[0m
+[0.044s] [ 10%] Built target crsf_parser__rosidl_generator_c
+[0.045s] [ 13%] [32mBuilding CXX object CMakeFiles/tranform.dir/src/tranform.cpp.o[0m
+[0.045s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.045s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.045s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.045s] compilation terminated.
+[0.045s] gmake[2]: *** [CMakeFiles/transform_node.dir/build.make:76：CMakeFiles/transform_node.dir/src/tranform.cpp.o] 错误 1
+[0.046s] [ 16%] Built target crsf_parser__cpp
+[0.046s] gmake[1]: *** [CMakeFiles/Makefile2:624：CMakeFiles/transform_node.dir/all] 错误 2
+[0.046s] gmake[1]: *** 正在等待未完成的任务....
+[0.047s] [ 16%] Built target ament_cmake_python_copy_crsf_parser
+[0.057s] [ 24%] Built target crsf_parser__rosidl_typesupport_fastrtps_c
+[0.059s] [ 32%] Built target crsf_parser__rosidl_typesupport_c
+[0.059s] [ 40%] Built target crsf_parser__rosidl_typesupport_introspection_c
+[1.243s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:14:5:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kon_joy_received[m[K’
+[1.243s]    14 |     [01;31m[Kvoid[m[K
+[1.243s]       |     [01;31m[K^~~~[m[K
+[1.263s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:[m[K In constructor ‘[01m[KTransformNode::TransformNode()[m[K’:
+[1.263s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:10:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_joy_received[m[K’ is not a member of ‘[01m[KTransformNode[m[K’
+[1.263s]    10 |             "crsf/joy", 10, std::bind(&TransformNode::[01;31m[Kon_joy_received[m[K, this, std::placeholders::_1));
+[1.263s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.267s] [01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.267s]    11 |         [01;31m[Kpublisher_[m[K = this->create_publisher<communication::msg::MotionCommands>("/motion_command", 20);
+[1.267s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.267s]       |         [32m[Krmw_publisher_t[m[K
+[1.604s] gmake[2]: *** [CMakeFiles/tranform.dir/build.make:76：CMakeFiles/tranform.dir/src/tranform.cpp.o] 错误 1
+[1.604s] gmake[1]: *** [CMakeFiles/Makefile2:650：CMakeFiles/tranform.dir/all] 错误 2
+[1.604s] gmake: *** [Makefile:146：all] 错误 2
+[1.606s] Invoked command in '/home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang/tang_ws/remote_h/crsf_parser/build/crsf_parser -- -j16 -l16

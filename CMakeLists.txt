@@ -48,9 +48,23 @@ ament_target_dependencies(${PROJECT_NAME}_node
 rosidl_target_interfaces(${PROJECT_NAME}_node
   ${PROJECT_NAME} rosidl_typesupport_cpp)
 
+# 创建 tranform 可执行文件
+add_executable(tranform src/tranform.cpp)
+
+ament_target_dependencies(tranform
+  rclcpp
+  sensor_msgs
+  std_msgs
+)
+
+# 需要添加 communication 包依赖
+find_package(communication REQUIRED)
+ament_target_dependencies(tranform communication)
+
 # 安装目标
 install(TARGETS
   ${PROJECT_NAME}_node
+  tranform
   DESTINATION lib/${PROJECT_NAME}
 )
 
