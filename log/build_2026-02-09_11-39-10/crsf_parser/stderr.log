@@ -1,8 +1,0 @@
-[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:[m[K In member function ‘[01m[Kvoid TransformNode::publish_motion_commands()[m[K’:
-[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope; did you mean ‘[01m[Krint[m[K’?
-   43 |         [01;31m[Kprint[m[K(current_time)
-      |         [01;31m[K^~~~~[m[K
-      |         [32m[Krint[m[K
-gmake[2]: *** [CMakeFiles/tranform.dir/build.make:76：CMakeFiles/tranform.dir/src/tranform.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:622：CMakeFiles/tranform.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

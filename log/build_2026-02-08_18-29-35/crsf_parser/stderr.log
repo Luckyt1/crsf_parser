@@ -1,8 +1,0 @@
-[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:[m[K In constructor ‘[01m[KTransformNode::TransformNode()[m[K’:
-[01m[K/home/tang/tang_ws/remote_h/crsf_parser/src/tranform.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
-   12 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(10), std::bind(&TransformNode::publish_motion_commands, this));
-      |         [01;31m[K^~~~~~[m[K
-      |         [32m[Ktimer_t[m[K
-gmake[2]: *** [CMakeFiles/tranform.dir/build.make:76：CMakeFiles/tranform.dir/src/tranform.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:622：CMakeFiles/tranform.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2
