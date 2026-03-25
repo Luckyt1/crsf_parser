@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 project(crsf_parser)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 设置C++标准
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
@@ -13,6 +16,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+add_subdirectory(thirdpart/CSerialPort)
 # 查找消息依赖
 find_package(builtin_interfaces REQUIRED)
 
@@ -32,8 +36,10 @@ include_directories(
 add_executable(${PROJECT_NAME}_node src/crsf_parser.cpp)
 
 # 链接库
+target_link_libraries(${PROJECT_NAME}_node libcserialport)
 target_include_directories(${PROJECT_NAME}_node PUBLIC
   ${CMAKE_CURRENT_BINARY_DIR}/rosidl_generator_cpp
+  thirdpart/CSerialPort/include
 )
 
 # 添加依赖
